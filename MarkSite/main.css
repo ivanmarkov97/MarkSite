@@ -1,0 +1,168 @@
+body{
+	background: rgb(150, 150, 150);
+}
+
+.site_nav{
+	width: 100%;
+	opacity: 1;
+	border: 1px solid rgb(200, 200, 200);
+}
+
+.list_line_nav_parent{
+	text-align: center;
+}
+
+ul.lisne_list_nav{
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+ul.line_list_nav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.li_container{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.reg{
+	display: inline;
+	border: 1px solid rgb(200, 200, 200);
+	padding: 10px;
+	word-spacing: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+select{
+	background: rgb(150, 150, 150);
+	border: 0;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.begin_section{
+	text-align: center;
+	margin-top: 70px;
+	color: #FFF;
+}
+
+.little_title{
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode";
+}
+
+.big_title{
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode";
+}
+
+.connect_btn{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 2px solid #FFF;
+	display: inline-block;
+	color: #FFF;
+	background: rgb(150, 150, 150);
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+	outline: none;
+}
+
+.connect_btn:hover{
+	background: #FFF;
+	color: rgb(50, 50, 255);
+}
+
+.ability_section{
+	margin-top: 50px;
+	color: #FFF;
+}
+
+.article{
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px; 
+	min-height: 250px;
+}
+
+.article_img{
+	border: 5px solid #536DFE;
+	border-radius: 10px;
+	width: 350px;
+	height: 250px;
+}
+
+.article_descr_right{
+	text-align: right;
+}
+
+.article_descr_left{
+	text-align: left;
+}
+
+.about_us{
+	margin-top: 80px;
+	text-align: center; 
+	color: #FFF;
+}
+
+.we_are{
+	font-family: "Lucida Sans Unicode";
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.blue{
+	color:#42A5F5;
+}
+
+.we_are_descr{
+	font-weight: bold;
+}
+
+
+
+
+.process{
+	position: relative;
+	width: 875px;
+	height: 550px;
+	margin: 0 auto;
+	background: #FFF;
+}
+
+.step{
+	position: absolute;
+	width: 175px;
+	text-align: center; 
+}
+
+.setp_content{
+	height: 100px;
+	padding: 0 18px;
+	border-right: 1px solid #adadad;
+	border-left: 1px solid #adadad;
+}
+
+.step:after{
+	-webkit-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+}
+
+.step:befor{
+    -webkit-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
